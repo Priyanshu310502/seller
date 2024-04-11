@@ -1,0 +1,30 @@
+{
+  "name": "sel_auth",
+  "version": "1.0.0",
+  "description": "Seller Auth ",
+  "main": "app.js",
+  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "@selfcreatepackage/authtoken": "^1.0.0",
+    "axios": ">=0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "joi": "^17.12.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.3",
+    "serverless-http": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha tests/unit/",
+    "dev": "nodemon app"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0",
+    "nodemon": "^3.0.1"
+  }
+}
